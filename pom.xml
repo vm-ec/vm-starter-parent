@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.vm.ec</groupId>
 	<artifactId>starter-parent</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>starter-parent</name>
 	<description>This project is a starter library designed to centralize and standardize common reusable components and cross-cutting concerns across multiple projects. Serving as a base (parent) module, it provides foundational building blocks that can be easily extended or integrated into other services.</description>
 	<url>https://github.com/vm-ec/vm-starter-parent/</url>
