@@ -1,4 +1,4 @@
-package com.vm.ec.starter_parent;
+package com.vm.ec.starter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

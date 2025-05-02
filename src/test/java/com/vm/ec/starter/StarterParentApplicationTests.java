@@ -1,4 +1,4 @@
-package com.vm.ec.starter_parent;
+package com.vm.ec.starter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
