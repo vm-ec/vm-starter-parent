@@ -3,19 +3,19 @@ This project is a starter library designed to centralize and standardize common 
 
 # 🚀 Key Features:
 
-# ✅ Centralized Exception Handling – 
+✅ Centralized Exception Handling – 
 Consistent and structured error management across services
 
-# 📋 Unified Logging Mechanism – 
+📋 Unified Logging Mechanism – 
 Standardized logging setup for better observability and debugging
 
-# 🔁 Generic Response Structure – 
+🔁 Generic Response Structure – 
 Predefined response templates for uniform API output
 
-# 🌐 Web Client Integration – 
+🌐 Web Client Integration – 
 Simplified and reusable client for calling third-party APIs
 
-# 🧱 Modular and Extensible Design – 
+🧱 Modular and Extensible Design – 
 Easily adoptable in microservices and monolithic architectures
 
 This library helps in promoting code reusability, consistency, and faster onboarding for new services by reducing repetitive boilerplate code.
