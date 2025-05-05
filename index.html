@@ -2,30 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VM Starter Parent</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>vm-starter-parent</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 40px;
+      margin: 2em;
       background-color: #f9f9f9;
       color: #333;
     }
     h1 {
-      color: #2c3e50;
+      color: #007acc;
     }
     a {
-      color: #3498db;
+      color: #007acc;
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
     }
+    .content {
+      max-width: 800px;
+      margin: auto;
+    }
   </style>
 </head>
 <body>
+<div class="content">
   <h1>Welcome to VM Starter Parent</h1>
-  <p>This project serves as a foundational library for standardizing reusable components across multiple projects.</p>
-  <p>Explore the repository on <a href="https://github.com/vm-ec/vm-starter-parent" target="_blank">GitHub</a>.</p>
+  <p>This project is a starter library designed to centralize and standardize common reusable components and cross-cutting concerns across multiple projects.</p>
+  <p>Serving as a base (parent) module, it provides foundational building blocks that can be easily extended or integrated into other services.</p>
+  <h2>Repository</h2>
+  <p><a href="https://github.com/vm-ec/vm-starter-parent">GitHub: vm-ec/vm-starter-parent</a></p>
+  <h2>Usage</h2>
+  <p>To use this library in your Maven project, add the following dependency:</p>
+  <pre>
+&lt;dependency&gt;
+  &lt;groupId&gt;com.vmec&lt;/groupId&gt;
+  &lt;artifactId&gt;vm-starter-parent&lt;/artifactId&gt;
+  &lt;version&gt;1.0.0&lt;/version&gt;
+&lt;/dependency&gt;
+    </pre>
+  <p>Ensure that the artifact is available in your Maven repository.</p>
+</div>
+<br/>
+<div class="content">
+  <h1>Key Features:</h1>
+  <h3>✅ Centralized Exception Handling – Consistent and structured error management across services</h3>
+  <h3>📋 Unified Logging Mechanism – Standardized logging setup for better observability and debugging</h3>
+  <h3>🔁 Generic Response Structure – Predefined response templates for uniform API output</h3>
+  <h3>🌐 Web Client Integration – Simplified and reusable client for calling third-party APIs</h3>
+  <h3>🧱 Modular and Extensible Design – Easily adoptable in microservices and monolithic architectures</h3>
+  <p>This project is a starter library designed to centralize and standardize common reusable components and cross-cutting concerns across multiple projects.</p>
+
+</div>
 </body>
 </html>
