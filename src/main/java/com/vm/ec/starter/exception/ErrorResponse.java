@@ -5,6 +5,11 @@ import lombok.Data;
 
 import java.time.LocalDateTime;
 
+/**
+ * ErrorResponse class represents the structure of the error response returned to the client.
+ * It contains a timestamp, an error message, and an error code.
+ */
+
 @Data
 @AllArgsConstructor
 public class ErrorResponse {
