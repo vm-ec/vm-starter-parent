@@ -6,11 +6,15 @@ name: Maven Package
 on:
   push:
     branches: [ main ]
-
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to deploy'
+        required: false
+        default: '1.0.0'
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     permissions:
       contents: read
